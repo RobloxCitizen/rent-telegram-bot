@@ -53,9 +53,7 @@ pip install -r requirements.txt
 
 Добавить файл:
 
-`credentials.json`
-
-с ключами Google Service Account.
+`credentials.json` с ключами Google Service Account.
 
 Настроить переменные:
 
