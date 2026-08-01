@@ -23,3 +23,40 @@ Telegram-бот для автоматизации приема заявок на
 ## 📌 Сценарий работы
 
 1. Пользователь запускает бота командой:
+   
+/start
+
+2. Выбирает объект:
+
+3. Оставляет контактный номер.
+
+4. Данные сохраняются:
+
+Username | Contact | Date | Object
+
+
+5. Владелец получает уведомление о новом запросе.
+
+## ⚙️ Установка
+
+Клонировать репозиторий:
+
+`bash
+git clone https://github.com/username/rent-telegram-bot.git
+
+Установить зависимости:
+pip install -r requirements.txt
+
+Добавить файл:
+
+credentials.json
+
+с ключами Google Service Account.
+
+Настроить переменные:
+
+TOKEN = "YOUR_TELEGRAM_TOKEN"
+LANDLORD_ID = YOUR_CHAT_ID
+
+Запуск:
+python bot.py
