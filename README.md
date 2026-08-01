@@ -53,9 +53,7 @@ pip install -r requirements.txt
 
 Добавить файл:
 
-```bash
-credentials.json
-```
+`credentials.json`
 
 с ключами Google Service Account.
 
@@ -63,8 +61,8 @@ credentials.json
 
 ```bash
 TOKEN = "YOUR_TELEGRAM_TOKEN"
+LANDLORD_ID = YOUR_CHAT_ID
 ```
-LANDLORD_ID = YOUR_CHAT_ID`
 
 Запуск:
 `python bot.py`
