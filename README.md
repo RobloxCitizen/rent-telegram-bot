@@ -41,22 +41,29 @@ Username | Contact | Date | Object
 
 Клонировать репозиторий:
 
-`bash
-git clone https://github.com/username/rent-telegram-bot.git`
+```bash
+git clone https://github.com/username/rent-telegram-bot.git
+```
 
 Установить зависимости:
 
-`pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
 Добавить файл:
 
-`credentials.json`
+```bash
+credentials.json
+```
 
 с ключами Google Service Account.
 
 Настроить переменные:
 
-`TOKEN = "YOUR_TELEGRAM_TOKEN"
+```bash
+TOKEN = "YOUR_TELEGRAM_TOKEN"
+```
 LANDLORD_ID = YOUR_CHAT_ID`
 
 Запуск:
